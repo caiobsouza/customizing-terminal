@@ -1,6 +1,6 @@
 # Configurando o Terminal no MacOS
 
-O Terminal do Mac OS funciona, mas poderia ser melhor. Esse guia rápido pode te ajudar a melhor esse experiência.
+O Terminal do Mac OS funciona, mas poderia ser melhor. Esse guia rápido pode te ajudar a melhorar essa experiência.
 
 ## iTerm2
 
@@ -9,7 +9,7 @@ https://iterm2.com/
 
 ## Homebrew
 
-O [Homebrew](https://brew.sh/) é um gerenciador de pacotes para o MacOS (como o `apt-get` do Linux). É bastante útil para instalar diversas ferramentas, CLI, etc e muitos tutorias acabam utilizando o `brew`. Nós vamos utilizar-lo para instalar o **Zsh**
+O [Homebrew](https://brew.sh/) é um gerenciador de pacotes para o MacOS (como o `apt-get` do Linux). É bastante útil para instalar diversas ferramentas, CLI, etc e muitos tutoriais acabam utilizando o `brew`. Nós vamos utilizar-lo para instalar o **Zsh**
 
 ## Zsh (Z Shell)
 
@@ -20,17 +20,17 @@ Para instalar o Zsh vamos utilizar o **Homebrew**.
 
 ## Oh-My-Zsh
 
-O [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh) é um framework open-source para gerenciamento da configuração do Zsh. De cara já inclui 300+ plugins que ajudam (e muito) o dia-a-dia de desenvolvimento.
+O [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh) é um framework open-source para gerenciamento da configuração do Zsh. De cara, já inclui 300+ plugins que ajudam (e muito) o dia-a-dia de desenvolvimento.
 A instalação do **oh-my-zsh** é feita diretamente via script no terminal:
 
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 No GitHub do **oh-my-zsh** há mais informações de [como configurar Zsh e gerenciar os plugins.](https://github.com/ohmyzsh/ohmyzsh#using-oh-my-zsh). Vou listar algumas coisas que eu acho que merecem mais destaque:
 
-**As configurações ficam armazenas no arquivo** ``~/.zshrc`` **e as alterações devem ser feitas lá.**
+**As configurações ficam armazenadas no arquivo** ``~/.zshrc`` **e as alterações devem ser feitas lá.**
 
 ### Aliases
-É possível criar aliases para comando longos que são usados com frequência. Ao invés de digitar todas as vezes
+É possível criar aliases para comandos longos que são usados com frequência. Ao invés de digitar todas as vezes
 
     git pull --rebase
    é possível criar um alias e substituir o comando por 
@@ -48,7 +48,7 @@ Aqui você encontra a [Cheatsheet de aliases predefinidos](https://github.com/oh
 
 
 ## Vim | vi (Editor de textos) 
-Também é possível melhor o editor de textos do terminal (caso você utilize o [Vim](https://github.com/vim/vim)).
+Também é possível melhorar o editor de textos do terminal (caso você utilize o [Vim](https://github.com/vim/vim)).
 ### "Eu uso o Vim?" 
 Se você edita utilizando o comando `vi ~/file.txt`, você já usa o Vim.
 ### "Como finalmente editar o arquivo!?" 
